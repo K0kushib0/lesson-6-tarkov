@@ -1,0 +1,101 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap);
+
+.wrapper {
+    overflow: hidden;
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+    line-height: 1.6;
+}
+
+h1 {
+    color:  #000000;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+    text-shadow: 5px 5px 8px black;
+    opacity: 0.5;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: red;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+[class*="boss-"] {
+    min-height: 200px;
+    max-width: 800px;
+    padding: 2px;
+    border: 5px solid orange;
+    /*outline: 5px solid orange;*/
+    border-radius: 20px;
+    box-shadow: 5px -5px 7px 3px black;
+    margin-bottom: 40px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.followers,
+.strategy,
+.loot,
+.image {
+    margin-bottom: 20px;
+}
+
+[class*="other-"] {
+    text-decoration: underline;
+    color: #5F5F5F;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.other-image {
+    border-radius: 20px;
+    max-height: 340px;
+    max-width: 600px;
+}
+
+.loot-image {
+    border-radius: 15px;
+    height: 104px;
+    width: 320px;
+}
+
+.list-boss {
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 25px;
+    color: red;
+    text-shadow: 5px 5px 8px gray;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+li {
+    margin-bottom: 4px;
+}
